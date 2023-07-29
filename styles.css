@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    
+
+
+}
+.year,.month,.day,.hour,.min,.sec{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 12px;
+    font-size: 50px;
+    color: black;
+    
+}
+.year-cont,.month-cont,.day-cont,.hour-cont,.min-cont,.sec-cont{
+    border-radius: 10px;
+    background-color: brown;
+    font-size: 30px;
+    color: white;
+}
